@@ -1,2 +1,3 @@
 # CarDetection
-A car detection system using YOLO for application in self driving cars.
+
+Implementing car object detection which uses pre-trained YOLO ("You Only Look Once") model, having application in self driving cars. This algorithm requires only one forward propagation pass through the network to make predictions. Detecting objects of 80 classes like cars, passengers, traffic lights, etc, and drawing bounding boxes across them along with their probability. We will select boxes according to class scores and non max suppression.
